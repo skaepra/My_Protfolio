@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 const StoreScreen = () => {
   return (
-    <div className="bg-gray-50 dark:bg-zinc-900 transition-colors duration-200 min-h-screen p-4 sm:p-8 pb-20">
+    <div className="bg-gray-50 dark:bg-zinc-900 transition-colors duration-200 min-h-screen p-4 sm:p-8 pb-18">
       <div className="max-w-7xl mx-auto">
         {/* العنوان */}
         <div className="mb-10 text-center max-w-2xl mx-auto space-y-3">
