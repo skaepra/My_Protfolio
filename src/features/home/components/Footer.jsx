@@ -50,6 +50,6 @@ const styles = {
   container: "mx-auto max-w-5xl px-6 py-6 xl:px-0",
   bottomSection: "flex flex-col sm:flex-row justify-between items-center text-xs text-zinc-400 gap-4",
   copyright: "text-center sm:text-left text-zinc-600 dark:text-zinc-400 font-normal",
-  links: "flex gap-3 items-center text-zinc-600 dark:text-zinc-400 font-medium",
-  linkItem: "hover:text-blue-600 dark:hover:text-red-400 transition-colors cursor-pointer",
+  links: "flex gap-3 items-center text-blue-500 dark:text-red-400 sm:text-zinc-600 sm:dark:text-zinc-400 font-medium",
+  linkItem: "   hover:text-blue-600 dark:hover:text-red-400 transition-colors cursor-pointer",
 };

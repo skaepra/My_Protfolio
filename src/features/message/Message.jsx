@@ -71,7 +71,7 @@ function MessageScreen() {
 
         <button
         onClick={submit}
-         className="w-full py-3 mt-2 bg-blue-600 dark:bg-red-500 hover:bg-blue-500 dark:hover:bg-red-500/90  text-white rounded-xl text-sm font-semibold shadow-lg shadow-blue-600/20 dark:shadow-red-600/30 transition-all active:scale-[0.98]">
+         className="w-full py-3 mt-2 bg-blue-500 sm:bg-blue-600 dark:bg-red-500 hover:bg-blue-500 dark:hover:bg-red-500/90  text-white rounded-xl text-sm font-semibold shadow-lg shadow-blue-600/20 dark:shadow-red-600/30 transition-all active:scale-[0.98]">
           Send Message
         </button>
 

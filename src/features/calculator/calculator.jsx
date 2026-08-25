@@ -73,9 +73,9 @@ function CalculatorScreen() {
 
   return (
     // تم تغيير max-w-200 إلى max-w-xl للحفاظ على حجم حاسبة متناسق
-    <div className="max-w-xl my-6 mx-auto p-6 bg-[#e1e5ec] dark:bg-zinc-800/80 border border-slate-200 dark:border-zinc-700/60 rounded-2xl shadow-sm space-y-5 transition-colors duration-300">
+    <div className="max-w-xl sm:my-6 mx-auto p-6 bg-[#e1e5ec] dark:bg-zinc-800/80 border border-slate-200 dark:border-zinc-700/60 rounded-2xl shadow-sm space-y-5 transition-colors duration-300">
       <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 text-center">
-        آلة حاسبة
+       Calculator
       </h3>
 
       <div className="flex flex-col sm:flex-row gap-6">
@@ -191,7 +191,7 @@ function CalculatorScreen() {
           <button
             type="button"
             onClick={handleClear}
-            className="w-full py-2.5 bg-red-500 dark:bg-red-500/40 hover:bg-red-400 dark:hover:bg-red-500/30 text-white dark:text-red-400 font-semibold text-sm rounded-xl transition-colors cursor-pointer"
+            className="w-full py-2.5 bg-red-500/40 sm:bg-red-500 dark:bg-red-500/40 hover:bg-red-400 dark:hover:bg-red-500/30 text-white dark:text-red-400 font-semibold text-sm rounded-xl transition-colors cursor-pointer"
           >
             Clear All
           </button>
