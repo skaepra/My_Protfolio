@@ -191,7 +191,7 @@ function CalculatorScreen() {
           <button
             type="button"
             onClick={handleClear}
-            className="w-full py-2.5 bg-red-500/40 sm:bg-red-500 dark:bg-red-500/40 hover:bg-red-400 dark:hover:bg-red-500/30 text-white dark:text-red-400 font-semibold text-sm rounded-xl transition-colors cursor-pointer"
+            className="w-full py-2.5 bg-red-500/60 sm:bg-red-500 dark:bg-red-500/40 hover:bg-red-400 dark:hover:bg-red-500/30 text-white dark:text-red-400 font-semibold text-sm rounded-xl transition-colors cursor-pointer"
           >
             Clear All
           </button>

@@ -80,7 +80,7 @@ export const HomeScreen = () => {
         <header className="text-center max-w-2xl mx-auto mb-10 space-y-2">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight">
             Featured{" "}
-            <span className="text-blue-600 dark:text-red-500">Projects</span>
+            <span className="text-blue-500 sm:text-blue-600 dark:text-red-500">Projects</span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
             A selection of my recent applications, open-source work, and system

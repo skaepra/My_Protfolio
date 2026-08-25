@@ -23,7 +23,7 @@ const ArticlesScreen = () => {
   }
 
   return (
-    <section className="py-6 md:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto min-h-screen bg-slate-50 dark:bg-zinc-900 text-slate-900 dark:text-slate-100 pb-21">
+    <section className="py-6 md:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto min-h-screen bg-slate-50 dark:bg-zinc-900 text-slate-900 dark:text-slate-100 pb-19.5">
       {/* ترويسة المعرض */}
       <div className="md:mb-10 text-center max-w-2xl mx-auto space-y-3">
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight ">
@@ -53,7 +53,7 @@ const ArticlesScreen = () => {
           </button>
 
           <span className="px-4 py-2 text-sm font-semibold  text-slate-600 dark:text-white">
-            Page <span className="font-bold text-[17px] text-blue-600">{currentPage}</span> of {totalPages}
+            Page <span className="font-bold text-[17px] text-blue-500 sm:text-blue-600 dark:text-red-500">{currentPage}</span> of {totalPages}
           </span>
 
           <button
