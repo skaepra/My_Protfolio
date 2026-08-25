@@ -52,8 +52,8 @@ const ArticlesScreen = () => {
             Previous
           </button>
 
-          <span className="px-4 py-2 text-sm font-semibold text-slate-600 dark:text-white">
-            Page {currentPage} of {totalPages}
+          <span className="px-4 py-2 text-sm font-semibold  text-slate-600 dark:text-white">
+            Page <span className="font-bold text-[17px] text-blue-600">{currentPage}</span> of {totalPages}
           </span>
 
           <button

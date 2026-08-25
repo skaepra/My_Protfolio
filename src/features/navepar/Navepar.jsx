@@ -73,13 +73,13 @@ function Navepar() {
           </div>
 
           {/* قائمة الروابط */}
-          <div className="flex flex-col  mt-2">
+          <div className="flex flex-col mt-2 space-y-1">
             {Links.map((link) => (
               <Link
                 key={link.id}
                 to={link.link}
                 onClick={() => setIsOpen(false)}
-                className="pr-4 pl-1.5 py-1 rounded-xl text-zinc-100 hover:bg-white/10 dark:hover:bg-zinc-800 dark:hover:text-red-400 font-medium transition-all active:scale-95"
+                className="pr-4 pl-2 py-2 rounded-xl text-zinc-100 hover:bg-white/10 dark:hover:bg-zinc-800 dark:hover:text-red-400 font-medium transition-all active:scale-95"
               >
                 {link.title}
               </Link>
