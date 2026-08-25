@@ -16,7 +16,7 @@ function Navepar() {
 
   return (
     <>
-      <nav className="bg-[#325bb3] dark:bg-[#111] p-4 px-6 md:px-9">
+      <nav className="bg-blue-500 sm:bg-[#325bb3] dark:bg-[#111] p-4 px-6 md:px-9">
         <div className="flex justify-between items-center">
           
           <div className="hidden sm:flex space-x-5">
@@ -53,7 +53,7 @@ function Navepar() {
 
       {/* 2. جسم الشريط الجانبي */}
       <aside
-        className={`fixed top-0 left-0 w-[55%]  bg-[#325bb3] dark:bg-[#161616] text-white z-50 p-4 flex flex-col justify-between shadow-2xl transition-transform duration-300 ease-in-out sm:hidden rounded-3xl mt-1 ${
+        className={`fixed top-0 left-0 w-[55%]  bg-blue-500 dark:bg-[#161616] text-white z-50 p-4 flex flex-col justify-between shadow-2xl transition-transform duration-300 ease-in-out sm:hidden rounded-3xl mt-1 ${
           isOpen ? "translate-x-1" : "-translate-x-full"
         }`}
       >
