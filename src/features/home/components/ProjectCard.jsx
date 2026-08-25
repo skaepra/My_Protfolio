@@ -11,7 +11,7 @@ export const ProjectCard = ({
     setComblit(!Comblit);
   }
   return (
-    <div className="bg-white dark:bg-zinc-800/50 p-2.5 rounded-xl border border-zinc-300 dark:border-zinc-700/50 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+    <div className="bg-white dark:bg-zinc-800/50 p-2.5 rounded-xl border border-zinc-300 dark:border-zinc-700/50 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 ">
       <p className="text-blue-600 dark:text-[#df3939] text-2xl font-bold">{title}</p>
 
       <p

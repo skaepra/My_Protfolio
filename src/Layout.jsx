@@ -13,7 +13,7 @@ import Navepar from "./features/navepar/Navepar";
 
 export default function Layout() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="relative min-h-screen pb-14">
      <Navepar/>
 
       <Routes>
