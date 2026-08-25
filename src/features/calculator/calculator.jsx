@@ -81,7 +81,7 @@ const validation = calculatorSchema.safeParse({
   setResult(finalResult);
    };
 return (
-  <div className="max-w-[800px] sm:my-4 mx-auto p-6 bg-[#e1e5ec] dark:bg-zinc-800/80 border border-slate-200 dark:border-zinc-700/60 rounded-2xl shadow-sm space-y-5 transition-colors duration-300">
+  <div className="max-w-[800px] sm:my-5 mx-auto p-6 bg-[#e1e5ec] dark:bg-zinc-800/80 border border-slate-200 dark:border-zinc-700/60 rounded-2xl shadow-sm space-y-5 transition-colors duration-300">
 
     <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 text-center">
       آلة حاسبة

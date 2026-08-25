@@ -32,11 +32,14 @@ export const HomeScreen = () => {
             </span>
 
             <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white leading-tight">
-              Ahmad's <span className="text-blue-500 dark:text-red-500">Portfolio</span>
+              Ahmad's{" "}
+              <span className="text-blue-500 dark:text-red-500">Portfolio</span>
             </h1>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-normal">
-              Crafting high-performance web applications and seamless cross-platform mobile experiences with modern software architecture.
+              Crafting high-performance web applications and seamless
+              cross-platform mobile experiences with modern software
+              architecture.
             </p>
 
             {/* تقنيات مجهزة كـ Badges أنيقة */}
@@ -53,26 +56,35 @@ export const HomeScreen = () => {
 
             {/* أزرار الدعوة للإجراء (Call to Action) */}
             <div className="pt-4 flex items-center gap-4">
-              <a
-                href="#projects"
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("projects")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
                 className="px-6 py-3 rounded-xl bg-blue-600 dark:bg-red-500 hover:bg-blue-500 
-                dark:hover:bg-red-500/95 text-white font-semibold text-sm transition-all duration-200 shadow-lg shadow-blue-500/25 dark:shadow-red-500/25"
+                dark:hover:bg-red-500/95 text-white font-semibold text-sm transition-all duration-200 shadow-lg shadow-blue-500/25 dark:shadow-red-500/25 cursor-pointer"
               >
                 View Work
-              </a>
+              </button>
             </div>
           </div>
         </div>
       </section>
 
       {/* قسم المشاريع */}
-      <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section
+        id="projects"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"
+      >
         <header className="text-center max-w-2xl mx-auto mb-10 space-y-2">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight">
-            Featured <span className="text-blue-600 dark:text-red-500">Projects</span>
+            Featured{" "}
+            <span className="text-blue-600 dark:text-red-500">Projects</span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
-            A selection of my recent applications, open-source work, and system designs.
+            A selection of my recent applications, open-source work, and system
+            designs.
           </p>
         </header>
 

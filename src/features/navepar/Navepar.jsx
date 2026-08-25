@@ -53,7 +53,7 @@ function Navepar() {
 
       {/* 2. جسم الشريط الجانبي */}
       <aside
-        className={`fixed top-0 left-0 w-[50%]  bg-[#325bb3] dark:bg-[#161616] text-white z-50 p-4 flex flex-col justify-between shadow-2xl transition-transform duration-300 ease-in-out sm:hidden rounded-3xl mt-1 ${
+        className={`fixed top-0 left-0 w-[55%]  bg-[#325bb3] dark:bg-[#161616] text-white z-50 p-4 flex flex-col justify-between shadow-2xl transition-transform duration-300 ease-in-out sm:hidden rounded-3xl mt-1 ${
           isOpen ? "translate-x-1" : "-translate-x-full"
         }`}
       >
@@ -79,7 +79,7 @@ function Navepar() {
                 key={link.id}
                 to={link.link}
                 onClick={() => setIsOpen(false)}
-                className="pr-4 pl-2 py-2 rounded-xl text-zinc-100 hover:bg-white/10 dark:hover:bg-zinc-800 dark:hover:text-red-400 font-medium transition-all active:scale-95"
+                className="pr-4 pl-2 py-3 rounded-xl text-zinc-100 hover:bg-white/10 dark:hover:bg-zinc-800 dark:hover:text-red-400 font-medium transition-all active:scale-95"
               >
                 {link.title}
               </Link>
