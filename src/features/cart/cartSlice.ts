@@ -1,6 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-// 1. تعريف شكل المنتج الواحد
 export interface CartItem {
   id: string | number;
   Name: string;
@@ -9,12 +8,11 @@ export interface CartItem {
   quantity: number;
 }
 
-// 2. تعريف شكل الـ State الخاص بالسلة
+
 interface CartState {
   items: CartItem[];
 }
 
-// 3. القيمة الابتدائية للـ State
 const initialState: CartState = {
   items: [],
 };

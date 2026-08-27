@@ -1,4 +1,4 @@
-import { RootState } from "../redux/store"; // قم بضبط المسار حسب مكان ملف store
+import { RootState } from "../redux/store";
 
 // Selector لجلب جميع المنتجات في السلة
 export const selectCartItems = (state: RootState) => state.cart.items;

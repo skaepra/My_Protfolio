@@ -29,7 +29,7 @@ export default [
       ...react.configs["jsx-runtime"].rules,
       ...reactHooks.configs.recommended.rules,
 
-      "no-undef": "error", // 👈 هذه القاعدة تضع خط أحمر تحت أي شيء غير مستورد
+      "no-undef": "error", 
       "react/jsx-no-target-blank": "off",
       "react-refresh/only-export-components": [
         "warn",

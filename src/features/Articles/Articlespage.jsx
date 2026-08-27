@@ -5,7 +5,7 @@ import Articles from '../data/Articles';
 
 const ArticlesScreen = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 9; // عدد المقالات في الصفحة الواحدة
+  const itemsPerPage = 9;
 
   // حساب المقالات المعروضة حسب الصفحة الحالية
   const totalPages = Math.ceil(Articles.length / itemsPerPage);

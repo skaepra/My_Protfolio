@@ -1,13 +1,11 @@
 import { useState, useEffect } from "react";
 
 export default function useDarkMode() {
-  // قراءة الوضع المحفوظ في localStorage أو الاعتماد على "dark" كافتراضي
   const [mode, setMode] = useState(() => {
     const saved = localStorage.getItem("dark");
     return saved === "light" ? "light" : "dark";
   });
 
-  // تحديث كلاس عنصر html وحفظ القيمة عند تغيير mode
   useEffect(() => {
     localStorage.setItem("dark", mode);
     const root = document.documentElement;
@@ -21,7 +19,7 @@ export default function useDarkMode() {
     }
   }, [mode]);
 
-  // دالة التبديل بين الوضعين
+
   const toggleMode = () => {
     setMode((prev) => (prev === "light" ? "dark" : "light"));
   };

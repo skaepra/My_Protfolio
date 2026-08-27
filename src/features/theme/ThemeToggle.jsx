@@ -1,5 +1,5 @@
 import React from "react";
-import useDarkMode from "./useDarkMode"; // تأكد من ضبط مسار الاستيراد حسب مجلد المشروع
+import useDarkMode from "./useDarkMode"; 
 
 const ThemeToggle = () => {
   const { isDark, toggleMode } = useDarkMode();
@@ -12,7 +12,6 @@ const ThemeToggle = () => {
       className="p-1.5 rounded-full  bg-[#416bc5] dark:bg-zinc-800/50 text-zinc-700 dark:text-slate-300 hover:bg-[#416bc5] dark:hover:bg-zinc-900 transition-all cursor-pointer shadow-xs "
     >
       {isDark ? (
-        // أيقونة الشمس
         <svg className="w-5 h-5 text-amber-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
             strokeLinecap="round"
@@ -22,7 +21,6 @@ const ThemeToggle = () => {
           />
         </svg>
       ) : (
-        // أيقونة القمر
         <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
             strokeLinecap="round"

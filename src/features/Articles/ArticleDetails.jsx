@@ -7,7 +7,6 @@ const ArticleDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  // البحث عن المقال المكتوب معرّفه في الرابط
   const article = Articles.find((item) => item.id === id);
 
   // تنسيق تاريخ النشر
@@ -19,7 +18,7 @@ const ArticleDetails = () => {
       })
     : '';
 
-  // في حال لم يتم العثور على المقال
+
   if (!article) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-zinc-900 text-slate-900 dark:text-slate-100 p-4">

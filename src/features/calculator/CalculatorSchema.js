@@ -1,6 +1,5 @@
 import { z } from "zod";
 
-// مخطط فحص البيانات الخاصة بالحاسبة
 export const calculatorSchema = z.object({
   number1: z
     .string()
